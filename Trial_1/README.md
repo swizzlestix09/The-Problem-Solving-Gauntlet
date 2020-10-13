@@ -1,4 +1,4 @@
-The Problem Solving Gauntlet 1
+Trial 1, The Broken React App
 
 Here you get a golden opportunity to flex those problem solving muscles, by using what you know about coding to fix this app!  The app when finished should beautifully display all of the element stored in the apps state in thier own nifty little containers. When you have finished debugging you will have an app that looks like the image below. 
 
