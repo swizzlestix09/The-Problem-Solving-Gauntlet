@@ -1,15 +1,14 @@
-import React from 'react';
-import TextBox from './TextBox.jsx';
+import React from "react";
+import TextBox from "./TextBox.jsx";
 
 const TextComponent = (props) => {
-
+  return props.someText.map((currentTxt, i) => {
     return (
-        props.someText.map((currentItem, i) => {
-                <TextBox 
-                    text={props.someText.currentItem} 
-                    func={props.alertWindow}/>  
-        })
-    )
+      <>
+        <TextBox key="{i.toString()}" text={currentTxt} />
+      </>
+    );
+  });
 };
 
 export default TextComponent;
